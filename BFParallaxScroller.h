@@ -16,5 +16,6 @@
 
 - (id)initWithForegroundScrollView:(UIScrollView *)scrollView;
 - (void)addBackgroundPlaneWithDistance:(float)distance withScrollView:(UIScrollView *)scrollView;
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView;
 
 @end
